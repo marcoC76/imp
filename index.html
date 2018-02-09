@@ -149,8 +149,8 @@
                                                                             rgb(86, 113, 126) 0%, 
                                                                             rgb(131, 171, 192) 0%, 
                                                                             #002266 200%); color:#ffffff">
-<div id="impress" class="impress-on">
-    <div id="overview" class="step" data-x="-2500" data-y="700" data-scale="12">
+<div id="impress">
+    <div id="title" class="step" data-x="-2500" data-y="700" data-scale="12">
         <div style="background-color:whitesmoke; padding:0 5% 0 5%;">
             <center><h1 class="animate fadeInLeftBig full-hide s2 principal" style="text-align: center;">Física 1</h1></center>
             <h3 class="animate fadeInRightBig full-hide s4 principal" style="text-align: center;">Presentacion del curso<b class="animate jello s10">...</b></h3>
@@ -238,28 +238,8 @@
     </div>
     <div id="classroom3" class="step" data-x="7700" data-y="-5000"  data-rotate="360" data-scale="1">
         <h2 class="principal">Codigo de la clase</h2>
-        <script>
-            var mostrarValor = function(x){
-                document.getElementById('comida').value=x;
-                }
-        </script>
-        <center>
-            <form class="animate full-hide zoomInUp s3" id="f1" action="#" style="color:#212121;">
-            
-                <select name="elejir_comida" onchange="mostrarValor(this.options[this.selectedIndex].value);">
-                
-                    <option value="j39sop">4°A Radio</option>
-                    <option value="9ol67j">4°B Radio</option>
-                    <option value="45sdf5">4°C Radio</option>
-                    <option value="sad45a">4°D Radio</option>
-                
-                </select>
-                
-                <br/>
-                
-                <input type="text" name="comida" id="comida" value="" size="8" onclick="copia_portapapeles()"/>
-            </form>
-
+        <center>                
+                <input type="text" name="comida" id="comida" value="" size="8"/>
         </center>
 
     </div>
@@ -274,28 +254,8 @@
     </div>
     <div id="drive3" class="step" data-x="9700" data-y="-5000"  data-rotate="360" data-scale="1">
         <h2 class="principal">Google Data Studio</h2>
-        <h3 class="animate full-hide zoomInUp s3">Consulta de calificación y el ID de alumno</h3>
-        <script>
-            var mostrarValor = function(x){
-                document.getElementById('comida2').value=x;
-                }
-        </script>
-        <center>
-            <form class="animate full-hide zoomInUp s3" id="f2" action="#" style="color:#212121;">
-            
-                <select name="elejir_comida2" onchange="mostrarValor(this.options[this.selectedIndex].value);">
-                
-                    <option value="https://goo.gl/6NWMrE">4°A Radio</option>
-                    <option value="9ol67j">4°B Radio</option>
-                    <option value="45sdf5">4°C Radio</option>
-                    <option value="sad45a">4°D Radio</option>
-                
-                </select>
-                
-                <br/>
-                
+        <h3 class="animate full-hide zoomInUp s3">Consulta de calificación y el ID de alumno</h3>                
                 <input type="text" name="comida2" id="comida2" value="" size="16"/>
-            
             </form>
         </center>
     </div>
@@ -458,6 +418,8 @@
         <h2>Carpeta y hojas blancas (por equipo)</h2>
         <h2>Calculadora científica (individual)</h2>
         <h4>HiperCalc en Android</h4>
+    </div>
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="15">
     </div>
 </div>
 
